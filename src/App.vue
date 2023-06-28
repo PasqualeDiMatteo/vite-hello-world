@@ -1,12 +1,14 @@
 <script>
 import AppTitle from "./components/AppTitle.vue"
+import AppHero from "./components/AppHero.vue"
 export default {
     data() {
         return {
         }
     },
     components: {
-        AppTitle
+        AppTitle,
+        AppHero
     }
 }
 </script>
@@ -14,6 +16,8 @@ export default {
 <template>
     <!-- Title -->
     <AppTitle />
+    <!-- Hero -->
+    <AppHero />
 </template>
 
 
